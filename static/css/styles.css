@@ -1,0 +1,77 @@
+body {
+    background-image: url('wind.jpg'); /* Replace 'background-image.jpg' with the path to your image file */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color to make it readable on the background image */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with slight opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for the glow effect */
+    position: absolute; /* Position the form absolutely */
+    top: 50%; /* Align the top of the form to the vertical center */
+    transform: translateY(-50%); /* Center the form vertically */
+    opacity: 0.9; /* Set the opacity of the form */
+}
+
+.login h1 {
+    color: #333;
+}
+
+.login form {
+    margin-top: 20px;
+}
+
+.login input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3d95f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    border: none;
+    border-radius: 25px; /* Adjust the border-radius to make the button cylindrical */
+    background-color: #00eeff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding to adjust button size */
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Transition effect for smoother animation */
+}
+
+.btn:hover {
+    background-color: #3295a77e; /* Button background color on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase box shadow on hover */
+    transform: translateY(-2px); /* Pop out effect on hover */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
